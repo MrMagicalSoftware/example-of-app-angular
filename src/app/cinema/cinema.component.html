@@ -1,0 +1,15 @@
+
+
+<h1>Posti liberi  {{ contaPostiLiberi()}}</h1>
+
+<div>
+    <ul>
+        <li *ngFor="let item of listaPosti">
+            {{item}}
+        </li>
+        <hr>
+        <li *ngFor ="let item of stampaSituazionePosti()">
+            {{item}}  
+        </li>
+    </ul>
+</div>

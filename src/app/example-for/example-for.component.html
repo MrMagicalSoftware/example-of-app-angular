@@ -1,0 +1,22 @@
+<div>
+
+    <h1>Elementi del vettore</h1>
+    <hr>
+    <p>{{listaDiNumeri}}</p>
+
+    <ul>
+
+        <li *ngFor="let item of listaDiNumeri;">
+            Numero : {{item}}  Doppio vale {{item * 2}}</li>  
+
+    </ul>
+   
+    <br><br>
+    <hr>
+
+    <ul>
+        <li *ngFor="let item of moltiplicaPerDue()">
+            {{item}}
+        </li> 
+    </ul>
+</div>

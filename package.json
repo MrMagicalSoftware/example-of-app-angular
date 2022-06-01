@@ -11,6 +11,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~12.1.0",
+    "@angular/cdk": "^12.0.0",
     "@angular/common": "~12.1.0",
     "@angular/compiler": "~12.1.0",
     "@angular/core": "~12.1.0",
@@ -18,6 +19,11 @@
     "@angular/platform-browser": "~12.1.0",
     "@angular/platform-browser-dynamic": "~12.1.0",
     "@angular/router": "~12.1.0",
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "chart.js": "^3.1.1",
+    "mdb-angular-ui-kit": "^1.6.1",
+    "primeicons": "^5.0.0",
+    "primeng": "^13.4.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
